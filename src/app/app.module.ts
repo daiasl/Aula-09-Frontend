@@ -23,15 +23,12 @@ import {
 } from '@seniorsistemas/angular-components';
 import { CoreModule } from './core/core.module';
 import { MessageService } from 'primeng/components/common/messageservice';
-import { FieldClienteFormComponent } from './cliente/views/cliente-form/field-cliente-form/field-cliente-form.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
-    TopBarComponent,
-    FieldClienteFormComponent
+    TopBarComponent
   ],
   imports: [
     BrowserModule,
