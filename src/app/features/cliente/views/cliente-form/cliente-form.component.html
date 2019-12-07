@@ -1,0 +1,13 @@
+<div class=" ui-g-12 ui-md-12 ui-lg-12 ui-xl-12">
+  <p-toast [style]="{marginTop: '80px'}" position="top-right" key="form-toast"></p-toast>
+  <p-card class="centralized">
+    <p-header class="header-card-form">
+      <div class="ui-helper-clearfix title-card-header">
+        <span class="ui-panel-title">Adicionar novo cliente</span>
+      </div>
+    </p-header>
+  <field-cliente-form [cliente]="this.cliente" (onCancel)="onCancel()"></field-cliente-form>
+  
+</p-card>
+</div>
+
